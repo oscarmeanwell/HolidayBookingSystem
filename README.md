@@ -9,11 +9,6 @@
 ### How do I get set up? ###
 
 * Clone the repo
-* Add the files found in the repo - cust.csv, guest.csv, tmp.csv, guestno.txt, refno.txt to the D drive
+* Add the files found in the repo - cust.csv, guest.csv, tmp.csv, guestno.txt, refno.txt to a D drive
+* If you dont have a D drive, do a find and replace on 'D:\\' to your target
 * Run the project
-
-
-
-### Who do I talk to? ###
-
-* Oscar Meanwell - 40201136@live.napier.ac.uk
