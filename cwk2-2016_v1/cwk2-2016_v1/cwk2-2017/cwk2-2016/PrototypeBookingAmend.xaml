@@ -1,0 +1,41 @@
+﻿<Window x:Name="windowMain" x:Class="cwk2_2016.BookingAmend"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BookingAmend" Height="387.5" Width="600" Closing="windowMain_Closing">
+    <Grid x:Name="frameMain" Width="600" Margin="0,0,-8,-61">
+        <Label x:Name="lblStartDate" Content="Start Date:&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="26,23,0,0" Height="26"/>
+        <Label x:Name="lblEndDate" Content="End Date:&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="276,24,0,0" Height="26"/>
+        <Label x:Name="lblGuestOne" Content="Guest One:&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="27,59,0,0" Height="26"/>
+        <Label x:Name="lblGuestTwo" Content="Guest Two:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="27,90,0,0" Height="26"/>
+        <Label x:Name="lblGuestThree" Content="Guest Three:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="27,121,0,0" Height="26"/>
+        <Label x:Name="lblGuestFour" Content="Guest Four:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="27,152,0,0" Height="26"/>
+        <Label x:Name="lblBreakfast" Content="Breakfast:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="27,183,0,0" Height="26"/>
+        <Label x:Name="lblTea" Content="Tea:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="27,214,0,0" Height="26"/>
+        <TextBox x:Name="txtStartDate" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="126,26,0,0"/>
+        <TextBox x:Name="txtEndDate" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="367,27,0,0"/>
+        <TextBox x:Name="txtG1N" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="127,62,0,0"/>
+        <TextBox x:Name="txtG2N" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="127,93,0,0"/>
+        <TextBox x:Name="txtG3N" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="127,124,0,0"/>
+        <TextBox x:Name="txtG4N" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="127,155,0,0"/>
+        <TextBox x:Name="txtTD" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="166,217,0,0"/>
+        <TextBox x:Name="txtGoP" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="268,62,0,0"/>
+        <TextBox x:Name="txtG2P" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="268,93,0,0"/>
+        <TextBox x:Name="txtG3P" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="268,124,0,0"/>
+        <TextBox x:Name="txtG4P" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="268,155,0,0"/>
+        <TextBox x:Name="txtG1A" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="68" Margin="419,62,0,0"/>
+        <TextBox x:Name="txtG2A" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="68" Margin="419,93,0,0"/>
+        <TextBox x:Name="txtG3A" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="68" Margin="419,124,0,0"/>
+        <TextBox x:Name="txtG4A" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="68" Margin="419,155,0,0"/>
+        <Label Content="Car Hire:&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="27,245,0,0"/>
+        <TextBox x:Name="txtCHStart" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="166,247,0,0"/>
+        <TextBox x:Name="txtCHE" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="313,247,0,0"/>
+        <TextBox x:Name="txtCHDNm" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="449,247,0,0"/>
+        <TextBox x:Name="txtBd" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Margin="166,186,0,0"/>
+        <CheckBox x:Name="checkboxCH" Content="&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="108,252,0,0"/>
+        <CheckBox x:Name="checkboxTea" Content="&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="108,220,0,0"/>
+        <CheckBox x:Name="checkboxB" Content="&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="108,188,0,0"/>
+        <Button x:Name="btnAmend" Content="Amend" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="242,304,0,0" Click="btnAmend_Click"/>
+        <Label x:Name="lbloldCost" Content="Cost:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="27,300,0,0"/>
+
+    </Grid>
+</Window>

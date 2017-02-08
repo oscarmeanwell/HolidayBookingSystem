@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="cwk2_2016.App" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cwk2_2016.Booking" Collapsed="true">
+    <Position X="13.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEIAAIAAAAAAAgAAAAAAAAAAAIAAAgAAAAAIAQ=</HashCode>
+      <FileName>Booking.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cwk2_2016.CarHire" Collapsed="true">
+    <Position X="12" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAEAEAAAAAAAAIAAAAAgAAAAACAAAAAAAEAAAAA=</HashCode>
+      <FileName>CarHire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cwk2_2016.Customer" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAQAAAIEAAACAAAgAAAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cwk2_2016.Extras" Collapsed="true">
+    <Position X="12.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAIggAEAAAQAAAgBAkAAAAJAAAAAEAAABA=</HashCode>
+      <FileName>Extras.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cwk2_2016.Guest">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAEAAAAQAAAAEAAAgCAAAAAAAAAA=</HashCode>
+      <FileName>Guest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cwk2_2016.Window1" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAgAAAgRAAAAAAAAAAAACAA=</HashCode>
+      <FileName>GuestWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cwk2_2016.InvoiceWindow" Collapsed="true">
+    <Position X="4.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>InvoiceWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cwk2_2016.MainWindow" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCAAEQACAAAAAAAAAAQAAAAAJAAEAQAAAAAAAAEA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cwk2_2016.ManageBooking">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAACBICAAQACAAAIAABAABAAAEAEMABABAJhA=</HashCode>
+      <FileName>ManageBooking.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cwk2_2016.Meals" Collapsed="true">
+    <Position X="12" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAgAAAAIAEAAAABAgAAAABAAAAAAAAAAE=</HashCode>
+      <FileName>Meals.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cwk2_2016.BookingAmend" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAgAAASCAAAAAAAAAAAAAAQAAAAAAAAAAAAgABA=</HashCode>
+      <FileName>PrototypeBookingAmend.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cwk2_2016.SingletonFileHandler">
+    <Position X="13" Y="3" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>SingletonFileHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cwk2_2016.UnitTest" Collapsed="true">
+    <Position X="3" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UnitTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cwk2_2016.Properties.Resources" Collapsed="true">
+    <Position X="4.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="cwk2_2016.Properties.Settings" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,8 @@
+﻿<Window x:Name="windowInvoice" x:Class="cwk2_2016.InvoiceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="InvoiceWindow" Height="600" Width="600" Closing="windowInvoice_Closing">
+    <Grid x:Name="frmInvoice" Width="350" Height="350">
+        <TextBlock x:Name="txtInv" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="-111,-96,-103,-85" Height="531" Width="564"><Run/><LineBreak/><Run/></TextBlock>
+    </Grid>
+</Window>
